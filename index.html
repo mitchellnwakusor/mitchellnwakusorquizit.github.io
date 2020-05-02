@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Quiz IT</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-elements">
+            <h1>Quiz IT!</h1>
+            <div class="score">
+                <h2>Score</h2>
+                <h2 id="points">0</h2>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="question-box">
+                <p id="question">question 1</p>
+            </div>
+
+            <div class="options" id="1" onclick="answer()">
+                <p id="1" >Option 1</p>
+            </div>
+
+            <div class="options" id="2" onclick="answer()">
+                <p id="2" >Option 2</p>
+            </div>
+
+            <div class="options" id="3" onclick="answer()">
+                <p id="3" >Option 3</p>
+            </div>
+        </div>
+
+        <div class="next-btn">
+            <button onclick="next()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
