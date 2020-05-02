@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "comic";
+    src: url("comic.ttf");
+}
+
+.container{
+    min-height: 78vh;
+    max-height: 100vh;
+    margin: 2em 0;
+    padding: 2em;
+    width: auto;
+    background-color: #F0F0F0;
+}
+
+.header-elements h1{
+    text-align: center;
+    margin-top: 0;
+    color: black;
+    font-family: "comic", sans-serif;
+}
+
+.score{
+    width: auto;
+    float: right;
+    margin-right: 2.5vw;
+}
+
+.score h2{
+    font-family: sans-serif;
+}
+.score h2:last-child{
+    text-align: center;
+}
+
+.score:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    clear: both;
+    background-color: #E0E0E0;
+    max-width: 85vw;
+    min-width: 80vw;
+    margin:0 auto;
+    min-height: 45vh;
+    max-height: 60vh;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.question-box{
+   background-color: white;
+   height: 20vh; 
+   padding: 0.5em;
+   margin: 1em;
+}
+
+.options{
+    background-color: white;
+    height: 5vh;
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.next-btn{
+    margin-left: 2em;
+}
